@@ -6,6 +6,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.3/vue.js"></script>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+    	
+    	{{ message }}
+    </div>
+    <script>
+    	var app = new Vue({
+			el: '#app',
+			data: {
+				message: 'Hello Vue!'
+			}
+		});
+    </script>
   </body>
 </html>
