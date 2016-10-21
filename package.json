@@ -1,0 +1,21 @@
+{
+  "name": "vue-hackaton",
+  "version": "1.0.0",
+  "description": "vue-hackaton everything",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hitch90/vue-hackathon"
+  },
+  "keywords": [
+    "vue-hackaton"
+  ],
+  "author": "vue-hackaton",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
